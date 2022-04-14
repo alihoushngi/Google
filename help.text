@@ -1,0 +1,23 @@
+  <div className={styles.container}>
+      <Card
+        image={realMadrid}
+        title="Real Madrid win against Chelsea"
+        description="at last game in last night real madrid can won against chelsea , this game its the bests game in 10 years ago"
+      />
+    </div>
+
+    import React from "react";
+import Card from "./Card";
+import styles from "./Cards.module.css";
+import realMadrid from "../Real-Madrids.jpg";
+
+
+ const {image , title , description}
+    return (
+        <div className={styles.container}>
+            <img src={image} alt='photo-image' />
+            <h1>{title}</h1>
+            <p>{description}</p>
+        </div>
+    );
+    import styles from "./Card.module.css"

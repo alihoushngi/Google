@@ -1,0 +1,39 @@
+.bgdark {
+  background-color: #353535;
+}
+.listContainer {
+  display: flex;
+  align-items: center;
+  /* padding: 0 5rem; */
+  flex-direction: row;
+  /* justify-content: flex-end; */
+  /* flex-: column; */
+}
+.list {
+  color: #ffffff;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin: 0;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+}
+.logo {
+  width: 2.5rem;
+
+  border-radius: 50%;
+  margin: 0 auto;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+.menu {
+  width: 1.5rem;
+  cursor: pointer;
+  padding-left: 1rem;
+  border-radius: 30%;
+}
+.listItem {
+  padding-left: 1rem;
+
+  cursor: pointer;
+}
